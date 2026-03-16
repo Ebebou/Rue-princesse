@@ -36,8 +36,20 @@ p {
     font-size: 1rem;
 }
 
-.bouton-style {
+#btn-en-savoir-plus-1{
     display: none;
+}
+
+.bouton-style {
+    padding: 15px 24px;
+    background-color: black;
+    border: 2px solid #1d1d1f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .bouton-style:hover {
