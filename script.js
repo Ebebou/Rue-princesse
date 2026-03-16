@@ -285,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // Afficher un message informatif après un court délai
           setTimeout(() => {
             alert(
-              "Votre message a été copié ! Collez-le dans WhatsApp (Ctrl+V ou Cmd+V) pour envoyer votre commande."
+              "Veuillez appuyer longuement dans la barre de message pour la coller, ou utilisez le raccourci de votre clavier."
             );
           }, 1000);
         })
