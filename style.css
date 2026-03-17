@@ -36,7 +36,7 @@ p {
     font-size: 1rem;
 }
 
-#btn-en-savoir-plus-1{
+#btn-en-savoir-plus-1 {
     display: none;
 }
 
@@ -260,13 +260,13 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     min-height: 60vh;
-    padding: 3vh 5vw;
+    padding: 3vh 6vw;
 }
 
 .section-intro section {
     display: flex;
     justify-content: space-around;
-    gap: 15vw;
+    gap: 5vw;
 }
 
 .intro-titres {
@@ -368,10 +368,6 @@ nav {
 
 /* Premiere page */
 
-.princesse {
-    font-weight: bold;
-    display: flex;
-}
 
 .font-pr {
     font-family: "Roboto", sans-serif;
@@ -385,7 +381,7 @@ nav {
 
 .rue {
     font-family: "Be Vietnam Pro", sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -408,6 +404,7 @@ nav {
 .btn-cercle:active {
     transform: scale(1.5);
 }
+
 .en-savoirs-plus-accueil {
     z-index: 110;
     color: #f8f8f8;
@@ -469,12 +466,12 @@ nav {
 }
 
 
-.en-savoirs-plus-presentation{
+.en-savoirs-plus-presentation {
     display: flex;
     justify-content: center;
 }
 
-.en-savoirs-plus-presentation h3{
+.en-savoirs-plus-presentation h3 {
     width: 80vw;
 }
 
@@ -870,7 +867,7 @@ footer {
 
 @media (max-width: 1130px) {
 
-     .menu-commande {
+    .menu-commande {
         margin-left: 60vw;
     }
 
@@ -895,7 +892,7 @@ footer {
         font-size: 2rem;
     }
 
-    h3{
+    h3 {
         font-size: 1.5rem;
     }
 
@@ -906,7 +903,6 @@ footer {
 
     .section-intro {
         padding-top: 12vh;
-        padding-bottom: none;
 
     }
 
@@ -915,7 +911,6 @@ footer {
         gap: 0;
     }
 
-    .princesse,
     .rue {
         font-size: 12vw;
         text-align: left;
@@ -950,8 +945,16 @@ footer {
         font-size: 2rem;
     }
 
-    h3{
+    h3 {
         font-size: 1rem;
+    }
+
+    .rue {
+        font-size: 11vw;
+        text-align: left;
+        display: flex;
+        justify-content: left;
+
     }
 
     header {
@@ -964,30 +967,61 @@ footer {
 
     .menu-commande {
         display: none;
-        margin-left: 50vw;
     }
 
-     .menu-commande button {
+    .menu-commande button {
         padding: 6px 5px;
     }
 
 
     .section-intro {
+        display: flex;
+        flex-direction: row;
+        align-items: right;
         padding-bottom: none;
+    }
+
+    .section-intro section {
+        gap: 12vw;
+    }
+
+    .bouton-style-acheter-blanc-2 {
+        color: #1d1d1f;
+        background-color: #1d1d1f;
+        border: 2px solid #1d1d1f;
+    }
+
+    .bouton-style-acheter-blanc-2:active {
+        color: #1d1d1f;
+        border: 2px solid #1d1d1f;
+        background: transparent;
 
     }
 
-    #btn-en-savoir-plus-2 {
-        color: #fff;
-        background-color: transparent;
-        border: 2px solid #fff;
+    .bouton-style-acheter-blanc::after {
+        color: #1d1d1f;
+        background-color: #f8f8f8;
+        border: 2px solid #f8f8f8;
     }
 
-    #btn-en-savoir-plus-2:hover {
+    .bouton-style-acheter-blanc {
+        color: #1d1d1f;
+        background-color: #f8f8f8;
+        border: 2px solid #f8f8f8;
+    }
+
+    .bouton-style-acheter-blanc:active {
         color: #1d1d1f;
         border: 2px solid #fff;
-        background: #fff;
+        background: transparent;
 
+    }
+
+    .bouton-style-acheter-blanc-2::after {
+        color: #1d1d1f;
+        background-color: #f8f8f8;
+        border: 2px solid #f8f8f8;
+        
     }
 
     nav {
