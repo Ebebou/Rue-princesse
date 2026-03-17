@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rue-princesse.vercel.app/sitemap.xml
